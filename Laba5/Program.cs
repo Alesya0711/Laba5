@@ -27,6 +27,9 @@ namespace Laba5
                 // Уравнение 2: y = корень( x / (x - 1) )
                 double y2 = Math.Sqrt(x / (x - 1));
 
+                // Уравнение 3: y = (x + 1)/(x - 1) + корень(x^2)
+                // Math.Pow(x, 2) - возведение во вторую степень
+                double y3 = ((x + 1) / (x - 1)) + Math.Sqrt(Math.Pow(x, 2));
             }
             else
             {
