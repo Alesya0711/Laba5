@@ -10,7 +10,15 @@ namespace Laba5
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("=== Расчет значений уравнения ===");
 
+            // 1. Ввод данных (переменная x)
+            Console.Write("Введите значение x: ");
+            string input = Console.ReadLine();
+
+            // Чтобы консоль не закрылась сразу
+            Console.WriteLine("\nНажмите любую клавишу для выхода...");
+            Console.ReadKey();
         }
     }
 }
