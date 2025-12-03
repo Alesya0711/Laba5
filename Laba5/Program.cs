@@ -23,6 +23,10 @@ namespace Laba5
 
                 // Уравнение 1: y = (2x - 7) / корень(3x + 21)
                 double y1 = (2 * x - 7) / Math.Sqrt(3 * x + 21);
+
+                // Уравнение 2: y = корень( x / (x - 1) )
+                double y2 = Math.Sqrt(x / (x - 1));
+
             }
             else
             {
